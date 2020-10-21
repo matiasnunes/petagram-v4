@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvFotoGaleria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_text"
+    card_view:cardCornerRadius="@dimen/corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/imagen"
+            android:layout_height="@dimen/imagen"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:id="@+id/imgFotoGaleria"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvLikesGaleria"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/nombre"
+                    android:text="3"
+                    android:gravity="center_horizontal"
+                    />
+
+                <LinearLayout
+                    android:layout_width="@dimen/icono"
+                    android:layout_height="@dimen/icono"
+                    >
+
+                    <ImageButton
+                        android:layout_weight="1"
+                        android:id="@+id/imgTotalLikes"
+                        android:layout_height="38dp"
+                        android:layout_width="38dp"
+                        android:background="@drawable/bone2"
+                        android:gravity="center_horizontal|center_vertical"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

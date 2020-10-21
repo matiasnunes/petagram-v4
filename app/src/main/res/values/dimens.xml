@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="elevacion_appbar">4dp</dimen>
+    <dimen name="margin_text">10dp</dimen>
+    <dimen name="margin_top">30dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="nombre">30sp</dimen>
+    <dimen name="icono">38dp</dimen>
+    <dimen name="titulo">30sp</dimen>
+    <dimen name="texto">20sp</dimen>
+    <dimen name="imagen">100dp</dimen>
+    <dimen name="imagen_individual">150dp</dimen>
+</resources>
